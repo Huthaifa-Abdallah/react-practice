@@ -1,0 +1,33 @@
+
+.Card{
+  border :3px solid #08060d;
+  border-color: #08060d;
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: solid;  
+  box-shadow: 0px 0px 10px 0px #08060d; 
+  padding: 20px;
+  margin : 10px;
+  text-align: center;
+  max-width: 250px;  
+  display : inline-block;
+}
+.Card .card-image{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.Card .card-title{
+  font-size: 1.5em;
+  margin: 10px 0; 
+} 
+.Card .card-description{
+  font-size: 1em;
+  color: #555;
+  margin: 10px 0; 
+}
+.Card .card-content{
+  font-size: 0.9em;
+  color: #dc0d0d;
+  margin: 10px 0;
+}
