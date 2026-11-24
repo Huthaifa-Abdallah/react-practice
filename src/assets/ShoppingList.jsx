@@ -2,7 +2,6 @@
 import { useState } from 'react';
 
 function ShoppingList() {
-    
     const [items, setItems] = useState([]);
     const [newItemName, setNewItemName] = useState('');
     const [removeItemNumber, setRemoveItemNumber] = useState('');
